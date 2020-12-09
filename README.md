@@ -10,5 +10,5 @@ List: <path to the list with urls>
 
 ### Example
 ```
-./go run *.go -workers 128 -list list.txt -mode debug
+go run *.go -workers 128 -list list.txt -mode debug
 ```
