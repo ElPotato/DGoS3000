@@ -12,7 +12,7 @@ import (
 func main() {
 	fDebug := flag.String("mode", "debug", "toggle debug mode")
 	fWorkers := flag.Int("workers", 4, "amount of workers per URL")
-	fListPath := flag.String("list", "list.txt", "path to list with urls")
+	fListPath := flag.String("list", "", "path to list with urls")
 	flag.Parse()
 
 	// read urls from list file
