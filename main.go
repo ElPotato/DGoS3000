@@ -45,6 +45,7 @@ func requestURL(url string, mode string) {
 				fmt.Printf("error: %s", err.Error())
 			}
 		}
+		defer response.Body.Close()
 
 		if mode == "debug" {
 			fmt.Printf("%v", response)
