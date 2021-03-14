@@ -1,6 +1,3 @@
-https://iforgot-account-billing-update-tlss0.servicing38gntg.com/assets/img/footer-login-desktop-my.png
-https://iforgot-account-billing-update-tlss0.servicing38gntg.com/assets/img/login-desktop.png
-https://iforgot-account-billing-update-tlss0.servicing38gntg.com/assets/img/navbar.png
-https://iforgot-account-billing-update-tlss0.servicing38gntg.com/assets/img/footerbawah-my.png
-https://iforgot-account-billing-update-tlss0.servicing38gntg.com/assets/img/fot-my.png
-https://iforgot-account-billing-update-tlss0.servicing38gntg.com/assets/css/31642.ttf
+https://example.com/assets/img/some.png
+https://example.com/assets/img/some2.png
+https://example.com/assets/img/some3.png

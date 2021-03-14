@@ -1,5 +1,6 @@
 # DGoS3000
-DDOS tool written in Go / Motivation? a scammer sent me email.
+
+Dead simple command line tool to send number of HTTP requests concurently.
 
 ### Flags/Params
 ```
