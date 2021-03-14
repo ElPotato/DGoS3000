@@ -1,6 +1,6 @@
 # DGoS3000
 
-Dead simple command line tool to send number of HTTP requests concurently.
+Dead simple command line tool to send number of HTTP requests concurrently.
 
 ### Flags/Params
 ```
