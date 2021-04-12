@@ -1,12 +1,12 @@
 package main
 
 import (
-	"net/http"
-	"fmt"
-	"flag"
-	"io/ioutil"
-	"strings"
 	"errors"
+	"flag"
+	"fmt"
+	"io/ioutil"
+	"net/http"
+	"strings"
 )
 
 func main() {
@@ -24,10 +24,10 @@ func main() {
 	// thread with job server
 	go jobServer(urls, *fWorkers, *fDebug)
 
-	select{} // prevent program exit
+	select {} // prevent program exit
 }
 
-// serve job for workers / spawn workers
+// jobServer serve job for workers / spawn workers.
 func jobServer(urls []string, workers int, mode string) {
 	for _, url := range urls {
 		for i := 0; i < workers; i++ {
@@ -36,7 +36,7 @@ func jobServer(urls []string, workers int, mode string) {
 	}
 }
 
-// request from server the provided file
+// requestURL requests from server the provided url.
 func requestURL(url string, mode string) {
 	for {
 		response, err := http.Get(url)
@@ -54,10 +54,10 @@ func requestURL(url string, mode string) {
 			fmt.Printf("%v", response)
 		}
 	}
-	
+
 }
 
-// load, return slice with urls
+// readList load, return slice with urls.
 func readList(listPath string) ([]string, error) {
 	if listPath == "" {
 		return nil, errors.New("the list is empty")
